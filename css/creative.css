@@ -183,12 +183,26 @@ header .header-content .header-content-inner h2 {
 
 /* xs < 768 */
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 400px) {
 
     header .header-content .header-content-inner h2 {
         font-size: 2em;
         padding-top: 100px;
     }
+            .post-content {
+    font-size: 1.1em;
+}
+}
+
+@media screen and (min-width: 400px) {
+
+    header .header-content .header-content-inner h2 {
+        font-size: 2em;
+        padding-top: 100px;
+    }
+            .post-content {
+    font-size: 1.5em;
+}
 }
 
 
@@ -200,6 +214,9 @@ header .header-content .header-content-inner h2 {
         font-size: 2.2em;
         padding-top: 160px;
     }
+            .post-content {
+    font-size: 1em;
+}
 }
 
 
@@ -211,6 +228,9 @@ header .header-content .header-content-inner h2 {
         font-size: 2.5em;
         padding-top: 155px;
     }
+        .post-content {
+    font-size: 1.2em;
+}
 }
 
 
@@ -222,4 +242,7 @@ header .header-content .header-content-inner h2 {
         font-size: 2.8em;
         padding-top: 150px;
     }
+    .post-content {
+    font-size: 1.7em;
+}
 }
